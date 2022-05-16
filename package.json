@@ -1,0 +1,22 @@
+{
+  "name": "workspace-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/card-merchant-finder.js",
+  "scripts": {
+    "build": "tsc && node dist/card-merchant-finder.js",
+    "test": "node tests/card-numbers.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "ts-pattern": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^17.0.34",
+    "tape": "^5.5.3"
+  }
+}
